@@ -56,6 +56,10 @@ public class Peminjaman {
         return selisih > 0 ? selisih : 0;
     }
 
+    public boolean sudahKembali() {
+        return tanggalKembali != null;
+    }
+
     public String getNomorPeminjaman() {
         return nomorPeminjaman;
     }

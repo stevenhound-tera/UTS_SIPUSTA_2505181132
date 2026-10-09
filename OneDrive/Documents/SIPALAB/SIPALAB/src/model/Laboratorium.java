@@ -8,6 +8,8 @@ public class Laboratorium {
     private final String kodeLab;
     private final String nama;
 
+    // AGREGASI: alat dibuat di luar (sebagai Laptop, Proyektor, AlatUkur, atau
+    // Komponen), laboratorium hanya menampung lewat referensi tipe Alat.
     private final List<Alat> koleksiAlat = new ArrayList<>();
 
     public Laboratorium(String kodeLab, String nama) {

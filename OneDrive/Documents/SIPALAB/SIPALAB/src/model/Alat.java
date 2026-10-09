@@ -5,6 +5,7 @@ public abstract class Alat {
     protected String kodeAlat;
     protected String nama;
     protected int tahunPerolehan;
+    protected StatusAlat status = StatusAlat.TERSEDIA;
 
     public Alat(String kodeAlat, String nama, int tahunPerolehan) {
         this.kodeAlat = kodeAlat;
@@ -25,5 +26,21 @@ public abstract class Alat {
 
     public String getNama() {
         return nama;
+    }
+
+    public String getKodeAlat() {
+        return kodeAlat;
+    }
+
+    public int getTahunPerolehan() {
+        return tahunPerolehan;
+    }
+
+    public StatusAlat getStatus() {
+        return status;
+    }
+
+    public void setStatus(StatusAlat status) {
+        this.status = status;
     }
 }
