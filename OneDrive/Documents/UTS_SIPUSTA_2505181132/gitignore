@@ -1,0 +1,10 @@
+
+build/
+dist/
+target/
+bin/
+out/
+*.class
+.DS_Store
+nbproject/private/
+.vscode/

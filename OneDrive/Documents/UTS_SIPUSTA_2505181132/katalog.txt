@@ -1,0 +1,8 @@
+KODE       | JUDUL                            | TAHUN  | STATUS KELAYAKAN  
+----------------------------------------------------------------------------------
+MJ-002     | Info Teknologi Edisi 87          | 2026   | Layak Pinjam      
+BK-001     | Java How to Program              | 2022   | Layak Pinjam      
+BD-002     | Jurnal Rekayasa Perangkat        | 2025   | Layak Pinjam      
+BD-001     | Panduan Pemrograman Java         | 2024   | Layak Pinjam      
+BK-002     | Basis Data Relasional            | 2021   | Tidak Layak Pinjam
+MJ-001     | Info Teknologi Edisi 88          | 2026   | Tidak Layak Pinjam
